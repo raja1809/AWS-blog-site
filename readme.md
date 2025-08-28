@@ -173,10 +173,7 @@ aws s3 sync build/ s3://your-website-bucket --delete
 - `GET /api/blog/posts/user/:userId` - Get posts by user
 
 
-## 🌐 Live Demo
 
-- **Website**: [Your CloudFront URL or S3 website URL]
-- **API**: [Your EC2 public IP]:3001/api
 
 ## 📸 Screenshots
 
