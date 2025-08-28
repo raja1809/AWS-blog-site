@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://d2d12kxxqmkl4n.cloudfront.net', 'http://blog-website-bucket-pjt.s3-website-us-east-1.amazonaws.com'],
+  origin: ['http://13.220.79.110:3000', 'http://d2d12kxxqmkl4n.cloudfront.net', 'http://blog-website-bucket-pjt.s3-website-us-east-1.amazonaws.com'],
   credentials: true
 }));
 app.use(express.json({ limit: '50mb' }));

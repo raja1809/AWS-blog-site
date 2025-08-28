@@ -182,13 +182,13 @@ aws s3 sync build/ s3://your-website-bucket --delete
 
 ### Homepage
 
-![Homepage]('./screenshots/homepage.png')
+![Homepage]('screenshots/homepage.png')
 
 ### Create Post
-![Create Post]('./screenshots/create_post.png')
+![Create Post]('screenshots/create_post.png')
 
 ### User Profile
-![Profile]('./screenshots/profile.png')
+![Profile]('screenshots/profile.png')
 
 ## 🔒 Security Features
 
